@@ -1,0 +1,6 @@
+#ignora
+
+.DS_store
+.img_cache
+*.txt
+backround.jpg
