@@ -204,12 +204,15 @@ body {
 h1 {
   font-size: var(--fontSize-2);
 }
+
 h2 {
   font-size: var(--fontSize-3);
 }
+
 h3 {
   font-size: var(--fontSize-5);
 }
+
 h4 {
   font-size: var(--fontSize-6);
 }
@@ -318,6 +321,7 @@ h4 {
   scroll-snap-type: inline mandatory;
   overflow-x: auto;
 }
+
 .has-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -354,4 +358,45 @@ h4 {
 .hero-banner {
   max-width: max-content;
   margin-inline: auto;
+}
+
+.section .feature {
+  padding-block-start: 0;
+}
+
+.feature-list {
+  display: grid;
+  gap: 60px;
+  margin-block-start: 60px;
+}
+
+.feature .btn {
+  margin-inline: auto;
+}
+
+.has-bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.offer {
+  padding-block: 100px;
+}
+
+.offer-card {
+  background-color: var(--bg-white);
+  border: 2px solid var(--border-eerie-black);
+  box-shadow: var(--shadow-2);
+  padding: 80px 30px;
+}
+
+.offer-card .card-title {
+  font-size: var(--fontSize-1);
+}
+
+.offer-card .card-text {
+  font-size: var(--fontSize-8);
+  line-height: 1.8;
+  margin-block: 20px 45px;
 }
