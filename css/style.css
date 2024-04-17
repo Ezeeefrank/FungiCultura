@@ -261,6 +261,72 @@ h4 {
   object-fit: cover;
 }
 
+.section {
+  padding-block: 75px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  margin-block-end: 45px;
+}
+
+.product-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: var(--fontSize-9);
+  gap: 8px;
+  opacity: 0;
+}
+
+.product-btn .ion-icon {
+  font-size: 1.4rem;
+}
+
+.product-card:is(:hover, :focus-within) .product-btn {
+  opacity: 1;
+}
+
+.product-card .card-banner {
+  position: relative;
+}
+
+.product-card .card-content {
+  margin-block-start: 30px;
+}
+
+.product-card .card-title:is(:hover, :focus-visible) {
+  text-decoration: underline;
+}
+
+.product-card .price {
+  color: var(--text-orange-crayola);
+  font-family: "Lilita One", sans-serif;
+  font-size: var(--fontSize-7);
+  font-weight: var(--weight-semiBold);
+  margin-block-start: 10px;
+}
+
+.has-scrollbar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  scroll-snap-type: inline mandatory;
+  overflow-x: auto;
+}
+.has-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-item {
+  min-width: 100%;
+  scroll-snap-align: start;
+}
+
 .hero {
   background-color: var(--bg-wild-blue-yonder);
   padding-block: 130px 75px;
