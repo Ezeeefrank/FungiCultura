@@ -353,7 +353,7 @@ h4 {
 }
 
 .hero-text {
-  font-size: var(--fontSize-8);
+  font-size: var(--fontSize-7);
   line-height: 2.1;
   margin-block-end: 16px;
 }
@@ -499,7 +499,7 @@ address.footer-text {
 }
 
 .copyright {
-  padding-block: 30px;
+  padding-block: 50px;
   font-size: var(--fontSize-8);
   text-align: center;
 }
